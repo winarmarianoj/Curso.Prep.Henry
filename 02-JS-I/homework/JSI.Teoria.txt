@@ -1,0 +1,33 @@
+JSI.Teoria.txt
+
+	* Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+Primero debo explicarte lo siguiente como introducción:
+Un tipo de Dato es una forma de separar o categorizar a distintos tipos de cosas, por ejemplo:
+- Un numero es un tipo de dato numerico
+- Una letra es un tipo de dato char
+- Un String es un tipo de dato de texto y la suma de muchos char
+- Un tipo de dato booleano es decir que algo puede ser verdad o falso
+
+1- Una variable es un elemento el cual se crea para poder guardar dentro de él algun valor como un número, o puede ser un nombre, o también puede ser el resultado de sumar 2 números, etc. 
+Es decir guardar en él lo que vos quieras para luego hacer algo con eso.
+
+2- String se lo llama a un elemento que tiene como tipo de dato el agrupar o juntar muchas letras, como por ejemplo tu nombre. Si tu nombre es Juan entonces en ese elemento sumaste las letras j + u + a + n y que ellas forman todas juntas ese nombre Juan. 
+
+3- Una función o tarea a hacer es una o muchas cosas que debe hacer o calcular en base a los datos que le podamos dar, o que tal ves ya estan escritos de alguna manera dentro de esa tarea y que por ejemplo nos devolverá algún tipo de resultado.
+
+Al Argumento se lo llama a ese dato que vos le podes dar a la funcion o tarea para que haga tal cosa o calcule eso.... 
+Dicho de otra manera, cuando llamamos a esa funcion para que nos ayude y haga esa tarea, en ese momento le voy a decir entre paréntesis con que dato tiene que trabajar, y se lo escribo por ahi mismo para que lo elabore y luego me devuelva algún tipo de respuesta o resultado.
+
+Y la palabra reservada "return" significa que se la usará dentro de esa función cuando el programador la crea y escribe, y la usará y pondrá por ejemplo antes de terminar de escribir la función, es decir en la última línea, y al lado de esa palabra por ejemplo pondrá que quiere que devuelva esa tarea, como por ejemplo el resultado de sumar 2 números....
+
+4- La declaración if sirve para usarla como una función y donde le podes hacer una pregunta dentro de su paréntesis haciendo algun tipo de comparación entre elementos, o si otra función da como resultado un verdadero o falso, o si algo es igual a otra cosa, etc.
+
+5- Los valores booleanos son tipos de datos como lo explicamos al principio, y solamente en este tipo de dato nos dirán si algo es verdad o es falso.
+Por ejemplo: si tu nombre es Juan, entonces llamo a una función o tarea para que me ayude y me responda si es verdadero que tu nombre es o no Juan.
+Entonces llamo a esa función y le pongo dentro de sus paréntesis el parámetro "Juan", entonces la función que ya esta hecha hará una pregunta con un if y le preguntará por ejemplo si Juan es igual a Juan, entonces devolvé (use la palabra return) verdadero o true en el idioma inglés.
+Si no es asi, porque yo como parámetro le escribi "Jose", entonces la función nos devolverá como resultado falso o false en inglés, debido a que Juan y Jose no son iguales.
