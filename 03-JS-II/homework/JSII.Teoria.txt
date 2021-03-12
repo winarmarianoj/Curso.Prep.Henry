@@ -1,0 +1,23 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+1- for se refiere a un bucle for, esto significa que se haría un ingreso a una especie de sistemita que da tantas vueltas dentro de sí mismo como vos le indiques o digas, esa cantidad de vueltas mientras tanto hará una tarea, un cálculo, o llamará a otras funciones para que hagan determinada tarea.
+Esa cantidad de vueltas que le decís vos cuantas serán, una ves que llega a ese número termina y sale, devolviendo algo o nada, con el solo hecho de haber hecho la tarea que le dijiste que hiciera.
+
+2- los indicadores && significan = y en castellano o and en inglés
+Se usan para por ejemplo hacer una pregunta en un if y que algo se igual a otra cosa && (y o and) que sea distinto de otra cosa....... por ejemplo.
+Cuando se utiliza este indicador es que se tienen que cumplir ambas cosas que preguntaste dentro de esa función if, si alguna de ellas no se cumpliera la respueta es falso o no ingresa a esa tarea porque no se cumplen. Es decir al usar el AND es ambas.
+
+3- los indicadores || significan = ó en castellano u or en inglés.
+A diferencia del anterir lo que hace es que pregunte por ejemplo en un if si algo es igual a otra cosa || en su defecto (ó u or) si es igual a esta otra cosa.....
+En este caso, ingresará a dicha función del if cuando se cumpla una u otra cosa de las que preguntaste, es decir al usar el OR es una u otra.
+
+4- Este indicador que es un solo signo de admiración ! sigfnica que es un negador, es decir que se pone primero o delante de algo que vos quieras negarlo o ponerlo en negativo.
+Por ejemplo si yo pregunto en un if si 2 es igual a 2 la respuesta sera si es correcto.
+Esto se escribiría if(2 === 2)....
+Ahora si yo pregunto en un if si 2 es distinto de 2 la respuesta sera que no es correcto.
+Esto se escribiría if(2 !== 2)....
+
+También se puede usar en un texto.
