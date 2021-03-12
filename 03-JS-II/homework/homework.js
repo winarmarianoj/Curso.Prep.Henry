@@ -109,11 +109,9 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if(numero - Math.floor(numero) === 0){
-    return true; 
-  }else{
-    return false;
-  }
+  let res = false;
+  if(numero - Math.floor(numero) === 0)res = true; 
+  return res;  
 }
 
 function fizzBuzz(numero) {
@@ -204,7 +202,7 @@ function doWhile(numero) {
   //Usar el bucle do ... while.
   let cant = 0;
   do{
-      numero=numero+5;
+      numero+=5;
       cant++;
   }while(cant < 8);
   return numero;
