@@ -1,0 +1,10 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+
+Un arrays es un zona donde se guardan o almacenan cosas en forma contigua es decir uno al lado del otro, se guardan elementos de todo tipo de dato en javascript.
+Tambien se lo puede conocer como un vector de cosas o elementos.
+El mismo va desde el elemento numero 1 que va a estar guardado en la posición del array numero 0 (cero) hasta las n cantidad de elementos y posiciones.
+
+Cuando decimos posiciones se refiere al lugar que esta un determinado elemento guardado en ese array.
+Por ejemplo si yo guarde un nombre 'Pepe' apenas se creo este array, voy a encontrar al elemento 'Pepe' en el primer lugar, que en el caso de arrays o vectores seria en la posición 0(cero).
