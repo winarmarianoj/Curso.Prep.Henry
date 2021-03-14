@@ -1,0 +1,16 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+1- Objetos son elementos que estan compuestos por 2 o mas propiedades de elementos o tambien arrays, o cualquier cosa que vos quieras meter o incluir dentro de ese objeto y que lo porte que lo lleve donde vos lo envies o uses.
+2- Propiedades se le dice al nombre del atributo que tiene cada objeto, el cual despues a cada propiedad se le asignara o dará un valor o nombre o lo que quieras poner y guardar ahi, como fotos, o muchas palabras.
+Es la que se conoce como la llave, para que tanto cuando le des un valor o luego lo quieras leer y recuperar, vas a poder acceder a ese valor a traves de esta propiedad o llave que contenga o tenga cada objeto.
+3-Métodos son funciones o tareas que vos podes también incluir dentro de un objeto y que esta haga algo o determinada tarea o determinado cálculo matemático.
+4-Bucle 'for...in' es para poder por ejemplo encontrar y saber cuales son los nombres de las claves o llaves o propiedades que tiene cada objeto, y asi poder acceder luego a los valores que tengan asignados cada uno y con eso poder hacer algo.
+5- Son dos maneras distintas que se pueden utilizar para poder expresar el nombre del objeto con el nombre de esa propiedad o llave y acceder a su valor asignado.
+La notación con puntos sería: <nombre del objeto>.<nombre de la llave>
+La notación con corchetes sería: <nombre del objeto>[<nombre de la llave>]
