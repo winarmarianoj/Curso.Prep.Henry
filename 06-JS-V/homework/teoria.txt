@@ -1,0 +1,14 @@
+* `prototype`
+* _Constructors_ (de Clases)
+
+Prototype es un framework escrito con el lenguaje de javascript, sencillo y dinamico para
+poder ser utilizado en aplicaciones web. Usa los servicios del cartero, ese que lo usas cuando
+haces un pedido y esperas una respuesta llamado AJAX.
+Podes usarlo todo el tiempo con los objetos, agregar funciones, etc.
+
+Los constructores de las clases te permiten crear los atributos o las cosas que son y le pertenecen
+a esa clase, asignando los valores que vos le des cuando lo creas y guardandolo en un espacio de memoria
+en la compu con esa clase.
+Por ejemplo la clase auto, va a tener los atributos: marca, año, modelo, version, motor, combustible, puertas, color..... 
+Cuando creas el objeto le vas a poner cada valor a cada cosa, y el constructor bien hecho te ayuda a asignar
+cada uno de esos valores a los atributos que creaste en esa clase llamada auto.
