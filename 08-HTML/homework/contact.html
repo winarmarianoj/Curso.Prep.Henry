@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesCv.css">
+    <title>CONTACT FORM</title>
+</head>
+<body>
+
+    <header></header>
+    
+    <!--INICIA MAIN-->
+    <main class="contact">
+        <!--INICIO FORM CONTACTO-->
+        <article class="contacto pt-5">
+            <div class="container-contacto col-12 col-md-6 col-lg-4" id="contacto">
+                <h2>Contactame 📨</h2>
+                <form action="https://formspree.io/xoqkonpl" method="POST">
+                    <div class="form-group">
+                        <label for="_replyto">Tu mail</label>
+                        <input class="form-control" type="text" name="_replyto" id="_replyto" placeholder="Mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="_subject">Asunto</label>
+                        <input class="form-control" type="text" name="_subject" id="_subject" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tu mensaje</label>
+                        <textarea class="form-control" name="message" placeholder="Mensaje" id="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary form-control mt-5" type="submit">Enviar</button>
+                    </div>
+                    <a href="cv.html" class="btn btn-primary btn-lg btn-block mt-25">Return to Menú</a>
+                </form>
+            </div>
+        </article>
+        <!--FIN FORM CONTACTO-->
+    </main>
+    <!--FIN DEL MAIN-->
+
+    <!--INICIO DEL FOOTER-->
+    <footer class="piePagina col-12 s12 m6">
+        <div class="col-12 s12 m6 text-muted text-center text-small">
+            <div class="datos">
+                <p class="mb-3 my-2 pt-5">&copy; 2020 Mariano Javier Wiñar</p>
+                <ul>
+                    <li class="list-inline-item"><a titles="ICE" href="https://www.facebook.com/winarmariano"
+                            target="_blank"><img src="/logos/facebook.png" alt=""></a></li>
+                    <li class="list-inline-item"><a titles="ICE" href="https://www.instagram.com/winarmarianoj5/?hl=es-la"
+                            target="_blank"><img src="/logos/instagram.png" alt=""></a></li>
+                    <li class="list-inline-item"><a titles="ICE"
+                            href="https://www.linkedin.com/in/mariano-javier-wi%C3%B1ar-0a100325/" target="_blank"><img
+                                src="/logos/linkedin.png" alt=""></a></li>
+                    <li class="list-inline-item"><a titles="ICE" href="https://github.com/winarmarianoj"
+                            target="_blank"><img src="/logos/github.png" alt=""></a></li>
+                    <li class="list-inline-item"><a titles="ICE" href="https://web.whatsapp.com/" target="_blank"><img
+                                src="/logos/whatsapp.png" alt=""></a></li>
+                    <li class="list-inline-item"><a titles="ICE" href="https://www.youtube.com/" target="_blank"><img
+                                src="/logos/youtube.png" alt=""></a></li>
+                    <li class="list-inline-item"><a titles="ICE" href="https://twitter.com/" target="_blank"><img
+                                src="/logos/twiter.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!--FIN DEL FOOTER-->
+    
+    <script src="/js/contact.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>

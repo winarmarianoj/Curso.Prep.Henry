@@ -1,0 +1,73 @@
+.back{
+	background-image: url(../img/fondo.jpeg);
+	max-height: 80vh;
+}
+h1{
+	font-family: Tahoma;
+    font-size: 3rem;
+    color: steelblue;
+    text-align: center;
+}
+h3,h4{
+	font-family: Verdana;
+    color: orangered;
+    text-align: center;
+}
+a{
+	font-family: Arial;
+    color: yellow;
+    text-align: center;	
+}
+img{
+	width: 400px;
+}
+#thirdDiv{
+	height: 600px;
+	width: 500px;
+	background-color: orange;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#spanId{
+	size: 18px;
+	margin: 50px;
+	color: yellow;
+	text-align: center;
+}
+.divClass{
+	display: -webkit-flex;
+	display: flex;
+  	-webkit-align-items: center;
+          align-items: center;
+  	-webkit-justify-content: center;
+          justify-content: center;
+}
+
+li{
+	list-style:none;
+}
+
+/* MEDIAS QUERYS */
+
+@media (min-width: 450px) {
+    .manual,.soporte,.nosotros,.piePagina{max-width: 430px;}
+}
+@media (min-width: 500px) {
+    .manual,.soporte,.nosotros,.piePagina{max-width: 460px;}
+}
+@media (min-width: 600px) {
+    .manual,.soporte,.nosotros,.piePagina{max-width: 550px;}
+}
+@media (min-width: 700px) {    
+    .manual,.soporte,.nosotros,.piePagina{max-width: 650px;}
+} 
+@media (min-width: 768px) {
+    .manual,.soporte,.nosotros,.piePagina{max-width: 720px;}
+} 
+@media (min-width: 990px) {
+    .manual,.soporte,.nosotros,.piePagina{max-width: 960px;}
+}  
+@media (min-width: 1200px) {
+    .manual,.soporte,.nosotros,.piePagina{max-width: 100%;}
+}
