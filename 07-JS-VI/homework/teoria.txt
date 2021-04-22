@@ -1,0 +1,6 @@
+* Funciones Callback
+
+Estas funciones son en pocas palabras funciones que realizan algún tipo de actividad, funcionalidad las cuales pueden devolver o no algun valor u objeto o lo que sea, y que son llamadas o utilizadas dentro de otras funciones,
+incluso son pasadas a esta segunda función o método como parámetro de esta segunda función.
+Recordamos que los parámetros son aquellas cosas, datos, objetos o lo que sea que se escriben dentro del paréntesis
+de las funciones y que son cosas que necesita usar la función o método para hacer su tarea y devolvernos algo o no.
